@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python -m unittest discover -v -p "*.py" test'
+                sh 'python -m unittest discover -v -p "*.py"'
             }
         }
     }
