@@ -9,3 +9,6 @@ class ArithmeticUnitTests(unittest.TestCase):
 
     def test_multiply(self):
         self.assertEqual(4, arithmetic.multiply(2, 2))
+
+    def test_power(self):
+        self.assertEqual(4, arithmetic.power(2, 2))
