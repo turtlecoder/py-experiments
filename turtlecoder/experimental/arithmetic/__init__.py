@@ -3,4 +3,4 @@ def add(x, y):
 
 
 def multiply(x, y):
-    return 3
+    return x*y
