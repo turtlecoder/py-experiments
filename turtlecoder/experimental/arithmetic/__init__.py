@@ -8,3 +8,7 @@ def multiply(x, y):
 
 def power(x, y):
     return pow(x, y)
+
+
+def divide(x, y):
+    return x / y;
